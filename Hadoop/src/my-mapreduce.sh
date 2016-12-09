@@ -1,5 +1,5 @@
 #!/bin/bash
-keyPair="kaushikfinaaws"
+keyPair="aws"
 
 make all
 cd server/$1 && sbt assembly && mv target/scala-*/$1*.jar ../../server.jar
